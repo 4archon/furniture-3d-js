@@ -1,0 +1,29 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+header {
+    height: 7%;
+    background-color: whitesmoke;
+}
+main {
+    margin: 0;
+    height: 93%;
+}
+#info {
+    position: absolute;
+    top: 10px;
+    width: 100%;
+    text-align: center;
+    z-index: 100;
+    font-size: 200%;
+}
+.flex-container {
+    display: flex;
+}
+.flex-item {
+    width: 30%;
+}
+#table {
+    width: 30px;
+}
