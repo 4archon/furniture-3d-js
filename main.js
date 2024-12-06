@@ -14,6 +14,7 @@ renderer.setSize( container.clientWidth, container.clientHeight );
 container.appendChild( renderer.domElement );
 
 const scene = new three.Scene();
+scene.background = new three.Color( 0xD3D3D3 );
 
 var chair1;
 var chair2;
@@ -111,9 +112,9 @@ var directionalLight = new three.DirectionalLight( 0xffffff, 0.5 );
 directionalLight.position.x = 10;
 scene.add( directionalLight );
 
-var directionalLight = new three.DirectionalLight( 0xffffff, 0.5 );
-directionalLight.position.x = -10;
-scene.add( directionalLight );
+// var directionalLight = new three.DirectionalLight( 0xffffff, 0.5 );
+// directionalLight.position.x = -10;
+// scene.add( directionalLight );
 
 var directionalLight = new three.DirectionalLight( 0xffffff, 0.5 );
 directionalLight.position.z = 10;

@@ -3,16 +3,20 @@ html, body {
     height: 100%;
 }
 header {
-    height: 7%;
+    /* height: 7%; */
+    min-height: 7%;
+    max-height: 7%;
     background-color: whitesmoke;
 }
 main {
     margin: 0;
-    height: 93%;
+    min-height: 93%;
+    max-height: 93%;
+    /* height: 93%; */
 }
 #info {
     position: absolute;
-    top: 10px;
+    top: 1%;
     width: 100%;
     text-align: center;
     z-index: 100;
@@ -25,5 +29,5 @@ main {
     width: 30%;
 }
 #table {
-    width: 30px;
+    width: 5%;
 }
